@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>TerapiasLima</title>
+
+	<!-- Minificado -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/terapias.css">
+
+	<!-- Opcional -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+	<!-- Javascript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="js/terapias.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+</head>
+<body>
+
+	<header class="container-fluid header">
+		<section class="container">
+			<div class="row">
+				<figure class="col-xs-12 col-sm-4 col-md-4 u--Margen">
+					<img src="img/l.png" alt="terapiaslima">
+				</figure>
+				<nav class="col-xs-12 col-sm-4 col-md-6 navbar-right header--nav navbar">
+					<ul class="Ul ">
+						<li class="List">
+							<i class="glyphicon glyphicon-home"></i>
+							<a href="#" class="Link">Inicio</a>
+						</li>
+						<li class="List">
+							<a href="#" class="Link">Nosotros</a>
+						</li>
+						<li class="List">
+							<a href="#" class="Link">Servicios</a>
+						</li>
+						<li class="List">
+							<a href="#" class="Link">Cursos</a>
+						</li>
+						<li class="List">
+							<a href="#" class="Link">Contacto</a>
+						</li>
+					</ul>
+				</nav>
+				
+			</div>
+		</section>
+		
+	</header>
+
+	<main>
+		
+		<section class="container">
+			<div class="row">
+				<article class="cover--contacto col-md-12">
+					
+				</article>
+				<form class="col-md-6" name="formulario">
+					<fieldset class="form--fieldset">
+						<label for="">Nombre</label>
+						<input type="text" name="nombre" placeholder="Ingrese su nombre" class="col-md-12 inputText">
+					</fieldset>
+					<fieldset class="form--fieldset">
+						<label for="">Apellidos</label>
+						<input type="text" name="apellidos" placeholder="Ingrese su apellido" class="col-md-12 inputText">
+					</fieldset>
+					<fieldset class="form--fieldset">
+						<label for="">Email</label>
+						<input type="email" name="email" placeholder="Ingrese su email" class="col-md-12 inputText">
+					</fieldset>
+					<fieldset class="form--fieldset">
+						<label for="">Telefono o Celular</label>
+						<input type="phone" name="celular" placeholder="Ingrese su telefono o celular" class="col-md-12 inputText">
+					</fieldset>
+					<fieldset class="form--fieldset">
+						<label for="">Consulta</label>
+						<select name="" id="" class="col-md-12">
+							<option value="1">Reservar Consulta</option>
+							<option value="2">Reservar Curso</option>
+							<option value="3">Información</option>
+						</select>
+					</fieldset>
+					<fieldset class="form--fieldset">
+						<label for="">Mensaje</label>
+						<textarea name="mensaje" id="" cols="30" rows="10" class="col-md-12 inputText" required></textarea>
+					</fieldset>
+					<fieldset class="form--fieldset">
+						<input class="btn btn-primary enviarMs" type="button" value="Enviar">
+					</fieldset>
+				</form>
+				<aside class="col-md-6">
+					<h2 class="title">Formulario de contacto</h2>
+					<article class="detallesContacto">
+						<h4 class="detalles">
+						Porfavor llena todo los campos que se requieren, al enviar su mensaje nos pondremos en contacto con usted.
+						</h4>
+						<h5 class="detalles">
+							Recuerda escribirnos cualquier consulta o duda:
+							info@terapiaslima
+						</h5>
+						<h5 class="detalles">
+							Conversa con nosotros: <strong class="fb"><a href="https://www.facebook.com/profile.php?id=100009493001570" target="_BLANK">Facebook</a></strong>
+						</h5>
+						
+					</article>
+				</aside>
+			</div>
+		</section>
+		
+
+	</main>
+
+	
+	<footer class="footer">
+
+		<div class="container">
+			<div class="row">
+				<ul class="col-md-4 footer--Ul">
+					<label class="Ul--Title">Horarios de Atención</label>
+					<li class="List">
+						<a href="#" class="Link">Reservar Consulta</a>
+					</li>
+				</ul>
+				<ul class="col-md-6 footer--Ul">
+					<label class="Ul--Title">Servicios</label>
+					<li class="List">
+						<a href="#" class="Link">La Accion del Iman</a>
+					</li>
+					<li class="List">
+						<a href="#" class="Link">Tratamiento</a>
+					</li>
+					<li class="List">
+						<a href="#" class="Link">Organos y su Emocion</a>
+					</li>
+					<li class="List">
+						<a href="#" class="Link">Meditacion</a>
+					</li>
+				</ul>
+				<ul class="col-md-2 footer--Ul">
+					<label class="Ul--Title">Medios de Contacto</label>
+					<li class="List">
+						Celular 999213943
+					</li>
+					<li class="List">
+						Fijo 01 5277518
+					</li>
+					<li class="List">
+						Rpm #962902060
+					</li>
+					<li class="List">
+						info@terapiaslima.com
+					</li>
+
+				</ul>
+			</div>
+		</div>
+		
+	</footer>
+
+	<script>
+  $(function() {
+    $(".rslides").responsiveSlides();
+  });
+</script>
+	
+</body>
+</html>

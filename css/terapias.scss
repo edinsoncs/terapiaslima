@@ -1,0 +1,326 @@
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+$bg--header: #e0f3fb;
+$bg--nav:#bde3f6;
+$cinco:5px;
+$cero:0;
+$white:white;
+$centrado--text: center;
+$blue:rgb(0, 82, 146);
+
+.u--Blanco {color:$white;}
+.u--Margen{margin:$cero;}
+.u--Blue{color:$blue;}
+
+
+.header {
+	background: $bg--header;
+	height: 80px;
+}
+.header--nav {
+	background: $bg--nav;
+	border-radius: $cinco;
+	margin: 1em 0;
+}
+.Ul  {
+	padding: $cero;
+	margin: $cero;
+}
+.Ul .List {
+	list-style-type: none;
+	display: inline-block;
+	font-size: 1.2em;
+	font-weight: 400;
+	margin-right: 1em;
+	padding: 0.5em;
+	line-height: 30px;
+	border-right: 1px solid rgb(153, 213, 243);
+}
+.Ul .List i {
+	color: rgb(2, 152, 219);
+}
+.homeSlide {
+	background: url('../img/bg-te.png');
+	background-repeat: repeat-x;
+}
+.detalles {
+	background: rgba(255, 255, 255, 0.46);
+}
+.contenido {
+  padding: 1em 0 1em 0;
+}
+.contenido__One {
+  padding: 0 0 1em 0;
+  border-bottom: 2px solid #6AC1B2;
+}
+.asideDe .coverTerapias img {
+  width: 100%;
+  border-radius: 50%;
+}
+.asideDe .coverDescription {
+  font-size: 1.5em;
+}
+.asideDe .coverDescription .coverDetalle {
+  font-size: 0.8em;
+}
+.contenido__Two {
+  padding: 1em 0 1em 0;
+  border-bottom: 2px solid #6AC1B2;
+  position: relative;
+}
+.contenido__Two .aside .contenido__Two--Menu {
+  padding: 0;
+  margin: 0;
+}
+.aside .contenido__Two--Menu .List {
+  list-style-type: none;
+  background-color: #BDE3F6;
+  padding: 0.5em 0;
+  margin: 0.5em 0;
+}
+.aside .contenido__Two--Menu .List .List--Contenido {
+  background: #0198DB;
+  width: 651px;
+  height: 200px;
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -6em;
+  margin-left: 7em;
+  z-index: 99;
+  padding: 1em;
+}
+.List--Contenido p {
+  color: white;
+}
+.contenido__Two--Derecha .figure--Derecha img{
+  width: 100%;
+}
+.contenido__Two--Aplicar {
+  text-align: $centrado--text;
+}
+.contenido__Tree  {
+  padding: 1em 0;
+}
+.contenido__Tree figure img {
+  width: 100%;
+}
+.contenido__Tree--Reservar {
+  text-align: $centrado--text;
+}
+.contenido__Tree .contenido__Tree--Go {
+  text-align: center;
+}
+.nosotros {
+  padding: 0 0 4em 0;
+}
+.nosotros .nosotros--Header {
+  background-color: #143157;
+  margin: 1em 0 0 0;
+}
+.nosotros .nosotros--Header .title {
+  padding: 0.2em 0.5em;
+}
+.nosotros .nosotros--Description {
+  background-color: #F5F5F5;
+  margin: 0 0 1em 0;
+  box-shadow: 0 14px 42px rgb(194, 194, 194);
+  padding: 1em;
+  letter-spacing:1px;
+}
+.nosotros .nosotros--Description .nosotros--tt, .nosotros--pp {
+  color: #787777;
+}
+
+.servicios {
+  padding: 0 0 4em 0;
+}
+.servicios .servicios--Header {
+  background-color: #143157;
+  margin: 1em 0 0 0;
+}
+.servicios .servicios--Header .title {
+  padding: 0.2em 0.5em;
+}
+.servicios .servicios--Description {
+  background-color: #F5F5F5;
+  margin: 0 0 1em 0;
+  box-shadow: 0 14px 42px rgb(194, 194, 194);
+}
+.servicios .servicios--Description .nosotros--tt, .nosotros--pp {
+  color: #787777;
+}
+.servicios--Description--tt {
+  display: block;
+  padding: 1em 0;
+}
+.servicios--Ul .List {
+  color: rgb(6, 154, 218);
+  padding: 0.3em 0;
+}
+.servicios--Ul .List .List--TT {
+  color: #333;
+  letter-spacing: 1px;
+}
+.servicios--Cont {
+  margin: 1em 0;
+}
+.servicios--Cont ul .List {
+  letter-spacing: 1px;
+}
+.servicios--Figure img {
+  width: 100%;
+}
+.cover--contacto {
+  background: url('http://monpatek.com/wp-content/uploads/2015/02/contactar.png');
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+}
+.cursos .cursos--Header {
+  background-color: #143157;
+  margin: 1em 0 0 0;
+}
+.cursos .cursos--Header .title {
+  padding: 0.2em 0.5em;
+}
+.cursos .cursos--Description {
+  background-size: cover;
+  margin: 0 0 1em 0;
+  box-shadow: 0 14px 42px rgb(194, 194, 194);
+  position: relative;
+}
+.cursos .cursos--Description .nosotros--tt, .nosotros--pp {
+  color: #787777;
+}
+.curso--content {
+  padding: 1em 0;
+}
+.cursos .cursos--Description .curso {
+  text-align: $centrado--text;
+}
+.curso i {
+  font-size: 3em;
+  padding: 1em 0;
+  color: #FFFFFF;
+  background-color: rgb(82, 161, 194);
+  width: 40%;
+  border-radius: 50%;
+}
+.curso .curso--tt {
+  font-size: 1.5em;
+  padding: 1em 0;
+  color: #52a1c2;
+}
+.cursos--Description--tt {
+  display: block;
+  padding: 1em 0;
+}
+.cursos--Ul .List {
+  color: rgb(6, 154, 218);
+  padding: 0.3em 0;
+}
+.cursos--Ul .List .List--TT {
+  color: #333;
+}
+.cursos--Cont {
+  margin: 1em 0;
+}
+.cursos--Figure img {
+  width: 100%;
+}
+.temarios .List {
+  list-style-type: none;
+  padding: 0.5em 0;
+}
+.temarioGo {
+  text-align: $centrado--text;
+  padding: 0 0 2em 0;
+}
+.temarioGo .title {
+  background: rgb(255, 244, 109);
+  padding: 0.5em 0;
+}
+.form--fieldset {
+  margin: 1em 0;
+}
+.form--fieldset label {
+  display: block;
+}
+.form--fieldset input, select, textarea {
+  padding: 0.5em;
+  outline: medium none;
+  width:100%;
+  &:focus:invalid {
+    background: rgb(190, 62, 62);
+  }
+}
+.form--fieldset textarea {
+  resize: none;
+    outline: medium none;
+}
+
+.footer {
+  background: url('../img/bg-te.png');
+  padding: 1em 0;
+}
+.footer--Ul .List {
+  list-style-type:none;
+}
+.footer--Ul .List .Link {
+  text-decoration: none;
+  color: white;
+}
+.description--btnVideo {
+  position: relative;
+}
+.video {
+  margin: 1em 0;
+  top: 50%;
+  left: 50%;
+  z-index: 24;
+  display: none;
+}
+@media screen and (min-width:0)  and (max-width:768px) {
+  .header .container .row figure {
+      text-align: center;
+  }
+  .header .container .row nav {
+    display: none;
+  }
+  .homeSlide .container .row .detalles .row div p {
+    font-size: 0.9em;
+  }
+}
